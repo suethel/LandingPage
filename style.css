@@ -1,9 +1,7 @@
-body {
-    background-color: #1f2937;
-    font-family: roboto, sans-serif;
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight: 300;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 a {
@@ -28,12 +26,12 @@ ul {
     justify-content: space-between;
     gap: 18px;
     align-items: center;
-    
+    background-color: #1f2937;
+    padding: 0px 105px;
 }
 
 .container {
     align-self: flex-start;
-    margin: 20px;
 }
 
 h1 {
@@ -71,6 +69,10 @@ img {
 .title-1 {
     display: flex;
     padding: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .info-2 {
