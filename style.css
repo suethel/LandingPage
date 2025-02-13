@@ -16,18 +16,18 @@ ul {
 }
 
 .logo {
-    font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    gap: 18px;
     align-items: center;
     background-color: #1f2937;
-    padding: 0px 105px;
+    padding: 5px 105px;
+    gap: 18px;
 }
 
 .container {
@@ -35,27 +35,26 @@ ul {
 }
 
 h1 {
+    color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
     padding: 0;
     margin: 5px;
 }
 
 .subtext {
     display: flex;
-    flex-wrap: wrap;
     margin: 5px;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 10px; 
     font-size: 18px;
     font-weight: 500;
     padding: 8px 30px;
     border: 0;
+    border-radius: 10px; 
     margin: 10px 0px;
 }
 
@@ -67,37 +66,40 @@ img {
 }
 
 .title-1 {
-    display: flex;
-    padding: 100px;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 300;
-}
-
-.info-2 {
     display: flex;
-    background-color: #fefefe;
-    color: #1f2937;
+    padding: 100px;
 }
 
 .title {
-    font-size: 36px;
     color: #1f2937;
+    font-size: 36px;
     font-weight: 900;
     justify-content: center;
+    padding: 50px;
 }
 
-.card {
+.allcards {
     color: #1f2937;
     font-size: 18px;
+    font-weight: 200;
+    display: flex;
     justify-content: center;
-}
+    gap: 50px;
+}   
 
 .square {
     border: 5px solid #3882f6;
     width: 150px;
     height: 150px;
-    border-radius: 5px;
-    display: flex;
+    border-radius: 20px;
+}
+
+.info-2 {
+    background-color: #fefefe;
+    color: #1f2937;  
+    text-align: center;
 }
