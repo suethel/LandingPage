@@ -88,6 +88,8 @@ img {
     font-weight: 200;
     display: flex;
     justify-content: center;
+    padding: 20px 150px;
+    gap: 50px;
 }   
 
 .square {
@@ -110,7 +112,7 @@ img {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    padding: 100px;
+    padding: 150px;
 }
 
 .author {
@@ -145,4 +147,12 @@ img {
 
 span {
     font-weight: 100;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px;
 }
